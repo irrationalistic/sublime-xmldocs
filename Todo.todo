@@ -1,0 +1,10 @@
+Roadmap v1:
+ ☐ Command for re-parsing a block
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ Set up default comment style @done (14-08-03 15:01) @project(Roadmap v1)
+ ✔ Integrate with sublime text (base plugin setup) @done (14-08-03 15:01) @project(Roadmap v1)
+ ✔ Compile list of all xml tags to be supported @done (14-08-03 15:01) @project(Roadmap v1)
+ ✔ Autocomplete snippets for xml tags (starting with <) @done (14-08-03 15:01) @project(Roadmap v1)
+ ✔ Able to activate on '///' @done (14-08-03 15:01) @project(Roadmap v1)

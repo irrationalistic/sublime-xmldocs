@@ -1,0 +1,30 @@
+{
+  "scope": "source.cs comment",
+  "completions":
+  [
+    { "trigger" : "<c",             "contents": "<c>${1:[code]}</c>"},
+    { "trigger" : "<code",          "contents": "<code>${1:[code]}</code>"},
+    { "trigger" : "<example",       "contents": "<example>${1:[example]}</example>"},
+    { "trigger" : "<exception",     "contents": "<exception cref='${1:ref}'>${2:[exception]}</c>"},
+    { "trigger" : "<include",       "contents": "<include file='${1:filename}' path='${2:tagpath}[@name=\"${3:id}\"]' />"},
+    { "trigger" : "<listb",         "contents": "<list type='bullet'>${1:items}</list>"},
+    { "trigger" : "<listn",         "contents": "<list type='number'>${1:items}</list>"},
+    { "trigger" : "<listt",         "contents": "<list type='table'>${1:items}</list>"},
+    { "trigger" : "<listh",         "contents": "<listheader>${1:header}</listheader>"},
+    { "trigger" : "<item",          "contents": "<item>${1:item}</item>"},
+    { "trigger" : "<term",          "contents": "<term>${1:term}</term>"},
+    { "trigger" : "<description",   "contents": "<description>${1:description}</description>"},
+    { "trigger" : "<para",          "contents": "<para>${1:para}</para>"},
+    { "trigger" : "<param",         "contents": "<param name='${1:name}'>${2:description}</param>"},
+    { "trigger" : "<paramref",      "contents": "<paramref name='${1:param}'/>"},
+    { "trigger" : "<permission",    "contents": "<permission cref='${1:member}'>${2:description}</permission>"},
+    { "trigger" : "<remarks",       "contents": "<remarks>${1:description}</remarks>"},
+    { "trigger" : "<returns",       "contents": "<returns>${1:description}</returns>"},
+    { "trigger" : "<see",           "contents": "<see cref='${1:member}'/>"},
+    { "trigger" : "<seealso",       "contents": "<seealso cref='${1:member}'/>"},
+    { "trigger" : "<summary",       "contents": "<summary>${1:[summary]}</summary>"},
+    { "trigger" : "<typeparam",     "contents": "<typeparam name='${1:name}'>${2:description}</typeparam>"},
+    { "trigger" : "<typeparamref",  "contents": "<typeparamref name='${1:name}'/>"},
+    { "trigger" : "<value",         "contents": "<value>${1:[value]}</value>"},
+  ]
+}
