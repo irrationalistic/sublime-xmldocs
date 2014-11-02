@@ -7,7 +7,7 @@
       { "key": "preceding_text",        "operator": "regex_contains", "operand": "^\\s*(\/\/\/)$", "match_all": true },
       { "key": "selector", "operator": "equal", "operand": [
         {"key": "source.cs"}
-      ]}
+      ], "match_all": true}
     ]
   },
   { "keys": ["enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:\\/\\/\\/?)\\s*).*/$1/}"},
@@ -18,7 +18,7 @@
       { "key": "preceding_text",                     "operator": "regex_contains", "operand": "^\\s*(\\/\\/\\/)", "match_all": true },
       { "key": "selector", "operator": "equal", "operand": [
         {"key": "source.cs"}
-      ]}
+      ], "match_all": true}
     ]
   },
   { "keys": ["enter"], "command": "insert_snippet", "args": {"contents": "\n${TM_CURRENT_LINE/^\\s*((?:\\/\\/\\/?)\\s*).*/$1/}\t$0\n${TM_CURRENT_LINE/^\\s*((?:\\/\\/\\/?)\\s*).*/$1/}"}, "context":
@@ -29,7 +29,7 @@
       { "key": "auto_complete_visible", "operator": "equal",          "operand": false,       "match_all": true },
       { "key": "selector", "operator": "equal", "operand": [
         {"key": "source.cs"}
-      ]}
+      ], "match_all": true}
     ]
   },
   { "keys": ["<"], "command": "run_macro_file", "args": {"file": "Packages/xmldoc/xmldoc-auto-complete.sublime-macro"},
@@ -40,7 +40,7 @@
       { "key": "selector",              "operator": "equal",          "operand": "comment",                       "match_all": true },
       { "key": "selector", "operator": "equal", "operand": [
         {"key": "source.cs"}
-      ]}
+      ], "match_all": true}
     ]
   },
 ]
